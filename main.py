@@ -10,7 +10,7 @@ def main(input: str) -> str:
         raise Exception
     if not ((a in range_list) and (b in range_list)):
         raise Exception
-    return str(eval(input))
+    return str(int(eval(input)))
 
 
 if __name__ == '__main__':
